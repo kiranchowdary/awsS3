@@ -5,4 +5,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync /home/kiran/awsS3 s3://s3aws1234 --delete
+      - aws s3 sync /home/ubuntu/awsS3 s3://s3aws1234 --delete
